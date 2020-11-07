@@ -7,7 +7,7 @@ public class Main extends Application{
         launch(args);
     }
 	@Override
-    public void start(Stage primaryStage) {		
+    public void start(Stage primaryStage) throws Exception{		
 		Window w=new Window();
 		Scene s= new Scene(w.getRoot(),1000,600);		
 	    primaryStage.setTitle("Observer");

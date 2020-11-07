@@ -27,5 +27,6 @@ public class Window{
 	}
 	public void update(String s) {
 		root.setStyle("-fx-background-color:"+s+";");
+		System.out.println(s);
 	}
 }
